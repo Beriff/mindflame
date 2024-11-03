@@ -1,0 +1,16 @@
+{
+  "name": "mindflame",
+  "version": "1.0.0",
+  "description": "keep up your motivation",
+  "main": "build/js/main.js",
+  "scripts": {
+    "start": "powershell scripts/build.ps1 && electron ."
+  },
+  "author": "beriff",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron/remote": "^2.1.2",
+    "electron": "^33.0.2",
+    "sass": "^1.80.6"
+  }
+}
