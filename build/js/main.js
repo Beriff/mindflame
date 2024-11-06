@@ -18,7 +18,12 @@ const createWindow = () => {
   });
 
   require("@electron/remote/main").enable(win.webContents);
-  win.loadFile("build/html/index.html");
+
+  if(!process.env.$MINDFLAME) {
+    win.loadFile("build/html/initialization.html")
+  } else {
+    win.loadFile("build/html/index.html");
+  }
 };
 
 app.whenReady().then(() => {

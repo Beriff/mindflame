@@ -1,0 +1,29 @@
+.window {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.window-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  padding: 2px;
+  width: auto;
+  border-bottom: 1px solid #9D937B;
+}
+
+.aux-info {
+  color: #9D937B;
+  font-size: small;
+}
+
+.main-topbar {
+  position: absolute;
+  width: 99%;
+}
+
+/*# sourceMappingURL=initialization.css.map */

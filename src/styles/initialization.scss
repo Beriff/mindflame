@@ -1,0 +1,39 @@
+$c-bg-dark: #282828;
+$c-bg-light: #383635;
+
+$c-txt-light: #EBDBB1;
+$c-txt-dark: #9D937B;
+
+$c-accent-light: #F08019;
+$c-accent-dark: #965609;
+
+.window {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.window-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    padding: 2px;
+
+    width: auto;
+    //height: 5%;
+    border-bottom: 1px solid $c-txt-dark;
+}
+
+.aux-info {
+    color: $c-txt-dark;
+    font-size: small;
+}
+
+.main-topbar {
+    position: absolute;
+    width: 99%;
+}
